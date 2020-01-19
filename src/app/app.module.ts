@@ -1,11 +1,10 @@
+import { BoardComponent } from './public/components/board/board.component';
+import { SquareComponent } from './public/components/square/square.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SquareComponent } from './components/square/square.component';
-import { BoardComponent } from './components/board/board.component';
-
 @NgModule({
   declarations: [
     AppComponent,
